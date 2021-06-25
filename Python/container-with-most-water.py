@@ -18,5 +18,3 @@ class Solution:
                 r = i
             res = max(res, min(height[l], height[r]) * (r - l))
         return res
-
-print(Solution().maxArea([2,1]))

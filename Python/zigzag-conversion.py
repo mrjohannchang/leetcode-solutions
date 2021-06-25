@@ -23,5 +23,3 @@ class Solution:
                         k += (i - 0) * 2
                     down = not down
         return res
-
-print(Solution().convert("PAYPALISHIRING", 4))
